@@ -80,7 +80,42 @@ carboncredit/
 - ✅ Integrates with existing UnyKorn sovereign stack  
 - ✅ Positions Future Tech Holdings at the center of ESG finance  
 
+---# 🌱 UnyKorn CarbonCredit Infrastructure
+
+A full **smart contract suite** to bring carbon credits on-chain in a **legit, auditable, and compliant way**.
+
 ---
+
+## 🏛️ Core Contracts
+
+- **[CarbonCreditERC1400.sol](./contracts/CarbonCreditERC1400.sol)**  
+  Tokenized carbon credits (ERC-1400 security token). Each token = 1 certified tonne CO2e.  
+  Features: fractionalization, whitelisting, transfer restrictions.
+
+- **[VaultProofNFT.sol](./contracts/VaultProofNFT.sol)**  
+  NFT-based **Proof of Reserve** with IPFS metadata. Anchors carbon batch audits.
+
+- **[CollateralVault.sol](./contracts/CollateralVault.sol)**  
+  Overcollateralized stable issuance engine (150% Basel III alignment).  
+  Accepts carbon credits as collateral, issues stable tokens.
+
+- **[ComplianceRegistry.sol](./contracts/ComplianceRegistry.sol)**  
+  FATF Travel Rule + ISO 20022 PACS.008 / CAMT.054 compliant whitelist registry.  
+  Enforces compliant counterparties in all transfers.
+
+---
+
+## 📊 Why It Matters
+
+- 🌍 Carbon market projected at **$1T+ by 2030** (World Bank)  
+- 🏦 Institutions demand **auditable ESG assets**  
+- ⚡ Tokenization enables liquidity, transparency, and fractional access  
+- 🛡️ Built compliance-first: FATF, MiCA, Basel III/IV, SEC Reg S/D  
+
+---
+
+## 📂 Repo Layout
+
 
 ## 📞 Contact
 
